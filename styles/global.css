@@ -1,0 +1,25 @@
+:root {
+  --font-family: 'Poppins', sans-serif;
+  /*Unidade por medida, ou seja, 1 rem por padrão é 16pixels*/
+  --text: 400 1rem/1.5 var(--font-family);
+  --text-sm: 400 0.875rem/1.4 var(--font-family);
+
+ /*Variáveis de cores de text*/
+  --text-primary: #292524;
+  --text-secondary: #57534E;
+  --text-tertiary: #8F8881;
+  --text-highlight: #E43A12;
+
+  /*Variável surface*/
+  --surface-primary: #FFFFFF;
+  --surface-seconday: #FEE7D6;
+  --surface-disabled: #E7E5E4;
+
+  /*Variável stroke*/
+  --stroke-default: #D6D3D1;
+  --stroke-highlight: #F3541C;
+
+  /*Variável semantic*/
+  --semantic-error: #DC2626;
+  
+}
