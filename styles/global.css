@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   --font-family: 'Poppins', sans-serif;
   /*Unidade por medida, ou seja, 1 rem por padrão é 16pixels*/
@@ -12,7 +18,7 @@
 
   /*Variável surface*/
   --surface-primary: #FFFFFF;
-  --surface-seconday: #FEE7D6;
+  --surface-seconday: #f9def9; /* testando outro layout*/
   --surface-disabled: #E7E5E4;
 
   /*Variável stroke*/
@@ -22,4 +28,8 @@
   /*Variável semantic*/
   --semantic-error: #DC2626;
   
+}
+
+body {
+  overflow: hidden;
 }
